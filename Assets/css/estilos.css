@@ -1,0 +1,87 @@
+
+/* backgroud ---------------------------------------------------------------------------------------------- */
+html, body{
+    height:100%;
+    margin:0;
+    padding: 0%;
+
+  }
+
+.fondo{
+    background-color: red;
+    z-index: -2;
+}
+
+.fondoi{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    top: 0%;
+}
+
+.logof{
+    position: absolute;
+    width: 10%;
+    left: 5%;
+    top: 10%;
+    z-index: -1;    
+}
+
+/* Login---------------------------------------------------------------------------------------------------- */
+
+.card{
+    display: flex;
+    width: 25%;
+    left: 65%;
+    top: 18% ;
+    border-radius: 20% !important;
+
+}
+
+.card-body{
+    z-index: 2;
+}
+.inputs{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.btn-primary{
+    /* position: absolute; */
+    width: 488%;
+    border-top-left-radius: 80px !important;
+    border-bottom-right-radius: 35px !important;
+    border-bottom-left-radius: 35px !important;  
+    padding: 90% !important;
+    margin-left: -45% !important;
+    margin-top: -150%;
+    background-color: #9bde2c !important;
+    border: #9bde2c !important;    
+
+}
+
+.iniciar-sesion{
+    width: 100%;
+    margin-top: -30%;
+    margin-left: 10%;
+}
+
+.card-footer{
+    background-color: rgb(171, 4, 51) !important;
+    position: absolute;
+    border-radius: 200px !important;
+    border-top-right-radius: 0 !important;
+    width: 100%;
+    z-index: 3;
+    top:80% ;
+    padding:10% !important;
+}
+
+.olvidaste-contraseñai{
+    margin-left: 0%;
+}
+
+
+
