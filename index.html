@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro-ingreso-calificado</title>
-    <link rel="stylesheet" href="Assets/css/estilos.css">
+    <link rel="stylesheet" href="Assets/css/Main.css">
     <link rel="stylesheet" href="Assets/boostrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="fondo">
-        <img class="logof" src= "Assets/imgenes-desktop/logo-cun.png" alt="" >
-        <img class="fondoi" src="Assets/imgenes-desktop/background.png" alt="">
+        <img class="logof" src="Assets/imgenes-desktop/logo-cun.png" alt="">
     </div>
 
-    <div class="card">
-      <img src="Assets/imgenes-desktop/gente-opacidad.png" class="card-img-top" alt="Login"/>
-      <br>
-      <div class="card-body">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-md-12 mx-auto">
-                    <input type="email" class="inputs " id="exampleInputEmail1"  placeholder="Nombre de usuario" aria-describedby="emailHelp">
-                </div>
-                <br><br><br>
-                <div class="col-md-12 mx-auto">
-                    <input type="password" class="inputs " id="exampleInputPassword1" placeholder="Contraseña" >
-                </div>
-                <br><br>
-                <div class="col-md-6 mx-auto">
-                    <label class="form-check-label" for="exampleCheck1">Recuerdame </label>
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                </div>
-                <br><br><br><br><br><br>
-                <div class="col-md-12">
-                    <div class="col-md-3 ">
-                        <button type="submit" class="btn btn-primary "><img class="iniciar-sesion" src="Assets/imgenes-desktop/iniciarsesion.png" alt=""></button>
+    <form class="login" action="" method="post">
+
+        <div class="card">
+
+            <img src="Assets/imgenes-desktop/gente-opacidad.png" class="card-img-top" alt="" />
+            <img src="Assets/imagenes-movil/hondafondom.png" class="imgmo" alt="">
+            <img src="Assets/imagenes-movil/gentesentm.png" class="gentesentm" alt="">
+            <img src="Assets/imagenes-movil/logocunsolo.png" class="logocunsolo" alt="">
+            <br>
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-md-12 mx-auto">
+                            <input type="email" class="inputs " id="exampleInputEmail1" placeholder="Nombre de usuario"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <br><br><br>
+                        <div class="col-md-12 mx-auto">
+                            <input type="password" class="inputs " id="exampleInputPassword1" placeholder="Contraseña">
+                        </div>
+                        <br><br>
+                        <div class="col-md-7 mx-auto">
+                            <label class="form-check-label" for="exampleCheck1">Recuerdame &nbsp;</label>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>
+                        <br>
+
+
+
                     </div>
                 </div>
             </div>
+            <div class="contenedores">
+                <div class="contenedor-verde">
+                    <button class="botonini" type="submit">
+                        <span><b>Iniciar sesión &nbsp;</b></span>
+                        <img class="flechaini" src="Assets/imgenes-desktop/Row-White.ico" alt="">
+                    </button>
+
+                    <div class="contenedor-rojo">
+                        <a class="olvidaste-contraseña" href="#"><span><b>¿Olvidaste tu contraseña?</b></span></a>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="card-footer">
-        <a class="olvidaste-contraseña" href="#"><img class="olvidaste-contraseñai" src="Assets/imgenes-desktop/olvidaste-contraseña.png" alt=></a>
-      </div>
+
+    </form>
+
+    <div class="inig">
+            <button class="botoniniciarg" type="submit">    
+        <!-- <button class="botoninig" type="submit"> -->
+            <img class="icog" src="Assets/imgenes-desktop/icono-g.ico" alt="">
+            <span><b>&nbsp; Inicia sesión con Google &nbsp;</b></span>
+            <img class="flechav" src="Assets/imgenes-desktop/Row-Green.ico" alt="">
+            </button>
     </div>
 
-    
-
-    <footer>
-
-    </footer>
 </body>
+
 </html>
